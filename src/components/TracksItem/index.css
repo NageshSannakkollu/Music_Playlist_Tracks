@@ -1,0 +1,43 @@
+.play-list-container {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 0;
+}
+
+.track-image {
+  height: 60px;
+  width: 100px;
+}
+.image-track-type-container {
+  display: flex;
+}
+
+.name-genre-container {
+  line-height: 1px;
+  margin-left: 15px;
+}
+
+.duration-delete-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-button {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete-image {
+  height: 28px;
+  width: 18px;
+  color: #ffffff;
+  margin-left: 5px;
+}
